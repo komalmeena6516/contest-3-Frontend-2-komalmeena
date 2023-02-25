@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.head{
+    color: white;
+    background-color: black;
+    font-family: sans-serif;
+    padding: 10px 20px;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.container{
+    margin: 10px;
+    padding: 0px 15px;
+}
+
+#addRow{
+    padding: 5px 38px;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    margin-bottom: 10px;
+}
+
+#myTable{
+    border-collapse: collapse;
+    width: 80vw;
+    margin-top: 20px;
+}
+#myTable tr, th, td{
+    border: 1.5px solid black;
+    padding: 5px 10px;
+}
+#myTable tr{
+    font-family: sans-serif;
+}
+
+.saveRow{
+    padding: 5px 10px;
+    margin: 5px ;
+    background-color: black;
+    color: white;
+}
